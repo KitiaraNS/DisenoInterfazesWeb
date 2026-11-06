@@ -10,6 +10,7 @@ Check de juegos.html
 ![checker de Juegos](img/checkerJuegos.png)
 
 Check de miestilo.css
+![checker de Juegos](img/checkerCss.png)
 
 Tal y como hablamos en clase, mi página no tiene un modo oscuro y un modo claro ni un inicio de sesión. 
 En su lugar he añadido un validador en el buscador de forma que no deja enviar una busqueda vacía o solo con espacios.
