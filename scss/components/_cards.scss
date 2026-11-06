@@ -1,0 +1,39 @@
+.card {
+    --bs-card-bg: #{$color-surface};
+    padding: 0;
+}
+
+.tarjeta {
+    color: $color-text;
+    text-decoration: none;
+
+    box-shadow: 0 0 0 0 rgba(238, 228, 170, 0);
+
+    transition: box-shadow 0.25s ease;
+
+    &:hover,
+    &:focus-visible {
+        color: $color-text;
+
+        box-shadow:
+            0 0 0 2px $color-hover,
+            0 0 12px 3px rgba(238, 228, 170, 0.55);
+    }
+
+}
+
+@include mobile {
+    .card img {
+        display: none;
+    }
+
+    .card-body {
+        text-align: center;
+        padding: $spacing-large;
+    }
+
+    main.container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

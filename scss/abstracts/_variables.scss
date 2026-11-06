@@ -1,0 +1,36 @@
+@import url('https://googleapis.com');
+$font-family-sans-serif: 'Miriam Libre';
+
+//Colores
+$color-background: #061640;
+$color-surface: #37254F;
+$color-text: #f3f2ec;
+$color-search: #f3f2ec;
+
+//Interacción
+$color-hover: #EEE4AA;
+$color-focus: #EEE4AA;
+
+//Botstrap
+$body-bg: $color-background;
+$body-color: $color-text;
+$primary: $color-text;
+
+//Espacios
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 1.5rem;
+$spacing-xl: 2rem;
+
+//Letras
+$font-size-h1: 72px;
+$font-size-h2: 48px;
+$font-size-h3: 40px;
+$font-size-h4: 36px;
+$font-size-p: 24px;
+
+$font-size-h1-mobile: 32px;
+$font-size-h2-mobile: 20px;
+$font-size-h3-mobile: 16px;
+$font-size-h4-mobile: 15px;
+$font-size-p-mobile: 13px;

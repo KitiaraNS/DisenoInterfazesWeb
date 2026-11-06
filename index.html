@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Adaptación al tamaño de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripción de la página -->
+    <meta name="description" content="Portal de esports, videojuegos, noticias, eventos y rankings">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+    <title>EsportsProyecto</title>
+
+    <!-- CSS compilado de Sass -->
+    <link rel="stylesheet" href="css/miestilo.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+
+        <h1 class="row">
+            <a href="index.html" class="tituloHead">
+                <img class="col-12" src="img/HeroImageInicio.png" alt="Imagen principal de inicio">
+                <span>Inicio</span>
+            </a>
+        </h1>
+
+        <div class="row" id="navbarNav">
+            <nav class="navbar navbar-expand-md menu col-12"
+                aria-label="Navegación principal">
+                <div class="container-fluid">
+                    <div class="row align-items-center w-100">
+
+                        <!-- menu movil -->
+                        <div class="row align-items-center d-md-none">
+
+                            <div class="col-2">
+                                <button class="navbar-toggler" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#menuPrincipal"
+                                    aria-controls="menuPrincipal"
+                                    aria-expanded="false"
+                                    aria-label="Abrir o cerrar el menú">
+
+                                    <i class="bi bi-list fs-3" aria-hidden="true"></i>
+
+                                </button>
+                            </div>
+
+                            <!-- buscador movil -->
+                            <div class="col-8">
+                                <form class="search_bar">
+                                    <input type="search" placeholder="Buscar" aria-label="Buscar" required>
+                                    <button type="submit" aria-label="Iniciar búsqueda">
+                                        <i class="bi bi-search" aria-hidden="true"></i>
+                                    </button>
+                                </form>
+                            </div>
+
+                            <!-- espacio centrar buscador -->
+                            <div class="col-2"></div>
+                        </div>
+
+                        <!-- menu escritorio -->
+                        <div class="collapse navbar-collapse" id="menuPrincipal">
+                            <ul class="nav row justify-content-center align-items-center w-100 g-0">
+
+                                <li class="nav-item col-12 col-md-2">
+                                    <a class="nav-link menu__link" href="juegos.html"><h2>Juegos</h2></a>
+                                </li>
+                                <li class="nav-item col-12 col-md-2">
+                                    <a class="nav-link menu__link" href="eventos.html"><h2>Eventos</h2></a>
+                                </li>
+                                <li class="nav-item col-12 col-md-2">
+                                    <a class="nav-link menu__link" href="noticias.html"><h2>Noticias</h2></a>
+                                </li>
+                                <li class="nav-item col-12 col-md-2">
+                                    <a class="nav-link menu__link" href="ranking.html"><h2>Ranking</h2></a>
+                                </li>
+                                <!-- buscador escritorio -->
+                                <li class="nav-item col-md-2 d-none d-md-block">
+                                    <form class="search_bar">
+                                        <input type="search" placeholder="Buscar" aria-label="Buscar" required>
+                                        <button type="submit" aria-label="Iniciar búsqueda">
+                                            <i class="bi bi-search" aria-hidden="true"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-3">
+        <div class="row">
+            <section class="col-12 col-md-11">
+
+                <article>
+                    <a href="#" class="card tarjeta mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/ImagenEstadio1.png"
+                                    class="img-fluid"
+                                    alt="Estadio donde se celebra el evento">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Evento en directo</h3>
+                                    <h4 class="card-text">Datos principales y descripción</h4>
+                                    <p class="card-text">
+                                        <small>Hora de publicación</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article>
+                    <a href="#" class="card tarjeta mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/ImagenEstadio2.png"
+                                    class="img-fluid"
+                                    alt="Estadio donde se celebra el evento">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Evento en directo</h3>
+                                    <h4 class="card-text">Datos principales y descripción</h4>
+                                    <p class="card-text">
+                                        <small>Hora de publicación</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article>
+                    <a href="#" class="card tarjeta mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/ImagenEstadio3.png"
+                                    class="img-fluid"
+                                    alt="Estadio donde se celebra el evento">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Noticia</h3>
+                                    <h4 class="card-text">Datos principales y descripción</h4>
+                                    <p class="card-text">
+                                        <small>Hora de publicación</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article>
+                    <a href="#" class="card tarjeta mb-3">
+                        <div class="row g-0">
+
+                            <div class="col-md-4">
+                                <img src="img/ImagenEstadio1.png"
+                                    class="img-fluid"
+                                    alt="Estadio donde se celebra el evento">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Noticia</h3>
+                                    <h4 class="card-text">Datos principales y descripción</h4>
+                                    <p class="card-text">
+                                        <small>Hora de publicación</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li>
+                    <a href="#" class="footer__link">Información</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Quiénes somos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Preguntas frecuentes</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/buscador.js"></script>
+</body>
+</html>
