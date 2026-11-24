@@ -4,13 +4,13 @@ En juegos.html es donde está el filtro, mientras que en index.html no está por
 Al hecer los checks, los html salían todos con el mismo warning que intentamos mirar en clase y no conseguimos solucionar, el warning sobre que el section debe tener un header o un div en su defecto.
 
 Check del index.html
-![checker del Index](img/checkerIndex.png)
+![checker del Index](/media-bruto/img-OLD/checkerIndex.png)
 
 Check de juegos.html
-![checker de Juegos](img/checkerJuegos.png)
+![checker de Juegos](/media-bruto/img-OLD/checkerJuegos.png)
 
 Check de miestilo.css
-![checker de Juegos](img/checkerCss.png)
+![checker del css](/media-bruto/img-OLD/checkerCss.png)
 
 Tal y como hablamos en clase, mi página no tiene un modo oscuro y un modo claro ni un inicio de sesión. 
 En su lugar he añadido un validador en el buscador de forma que no deja enviar una busqueda vacía o solo con espacios.
